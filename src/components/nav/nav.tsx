@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 const Navbar: React.FC<NavbarProps> = () => {
   const classes = useStyles()
   return (
-    <AppBar color='transparent' position='relative'>
+    <AppBar elevation={0} color='transparent' position='relative'>
       <Toolbar>
         <Typography variant='h6' noWrap>
           Urban Riders
